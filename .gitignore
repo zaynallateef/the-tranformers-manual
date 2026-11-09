@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.sites/
+.env*
+qa/
+.openai/
+.sites-runtime/
+.sites-checkout/
+coverage/
+*.log
+*.tar.gz
+*.zip
+.DS_Store

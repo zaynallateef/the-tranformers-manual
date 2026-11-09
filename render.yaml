@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: the-tranformers-manual
+    runtime: static
+    branch: main
+    buildCommand: npm ci --include=dev && npm run build
+    staticPublishPath: ./dist
